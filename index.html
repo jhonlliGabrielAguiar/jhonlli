@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jhonlli.dev</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- Hero -->
+  <section class="hero">
+    <div class="container">
+      <h1><span>jhonlli</span></h1>
+      <p> Web-Developer</p>
+
+      <nav class="nav-links">
+        <a href="#projects">Projetos</a>
+        <a href="#contact">Contato</a>
+      </nav>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="projects">
+    <div class="container">
+
+      <!-- Carrossel -->
+      <div class="carousel">
+        <div class="carousel-track">
+          <img src="img/cafeteria.jpg" alt="Projeto 1">
+          <img src="img/restalrante.jpg" alt="Projeto 2">
+        </div>
+        <button class="carousel-btn prev">&#10094;</button>
+        <button class="carousel-btn next">&#10095;</button>
+      </div>
+
+      <!-- Texto do projeto -->
+      <h2>projects</h2>
+      <h3>Transformando ideias em projetos digitais</h3>
+      <p>Olá! Meu nome é Jhonlli e sou estudante de Análise e Desenvolvimento de Sistemas, atraído por tecnologia e
+        design.
+        Estou no início da minha jornada como desenvolvedor web, mas já venho praticando e criando projetos que unem
+        simplicidade, criatividade e foco na experiência do usuário.
+        Se você tem uma ideia para um site, portfólio ou landing page e gostaria de ver essa ideia ganhar vida, entre em
+        contato!
+        Estou aberto a sugestões, colaborações e desafios que me ajudem a evoluir como profissional enquanto entrego
+        soluções digitais com dedicação e carinho.</p>
+      <button class="btn" id="openGallery">Ver Projetos</button>
+    </div>
+  </section>
+  <div class="modal" id="galleryModal">
+    <span class="close" id="closeGallery">&times;</span>
+    <div class="modal-content">
+      <img src="img/cafeteria.jpg" alt="Projeto 1">
+      <img src="img/restalrante.jpg" alt="Projeto 2">
+    </div>
+  </div>
+  
+    <!-- Tech Stack -->
+    <section id="tech-stack" class="tech-stack">
+      <div class="container">
+        <h2>Minhas Tecnologias</h2>
+        <div class="tech-icons">
+          <div class="tech-item">
+            <img src="img/HTML5.png" alt="HTML5">
+            <p>HTML5</p>
+          </div>
+          <div class="tech-item">
+            <img src="img/css.png" alt="CSS3">
+            <p>CSS3</p>
+          </div>
+          <div class="tech-item">
+            <img src="img/JavaScript.png" alt="JavaScript">
+            <p>JavaScript</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  
+  
+
+  <!-- Contact -->
+  <section id="contact" class="contact">
+    <div class="container contact-container">
+      <!-- Formulário à ESQUERDA -->
+      <div class="contact-form">
+        <h3>Formulario de contato</h3>
+        <form action="https://formsubmit.co/jhonlligabriel@gmail.com " id="contactForm"  method="POST">
+          <input type="text" name="name" placeholder=" Nome" required>
+          <input type="email" name="email" placeholder=" E-mail" required>
+          <input type="text" name="telefone" placeholder="telefone">
+          <textarea name="message" placeholder="Menssagem" required></textarea>
+          <button type="submit" class="btn">enviar Menssagem</button>
+        </form>
+      </div>
+
+      <!-- Informações à DIREITA -->
+      <div class="contact-info">
+        <h3>Contato</h3>
+        <p><strong>endereço:</strong>Água Santa, rua L7 596, RS</p>
+        <p><strong>telefone:</strong> +55 54 99189-6888</p>
+        <p><strong>E-mail:</strong> jhonlligabriel@email.com</p>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Pop-up de sucesso -->
+  <div id="popup" class="popup">
+    <div class="popup-content">
+      <span id="closePopup" class="popup-close">&times;</span>
+      <h2>Obrigado!</h2>
+      <p>Sua mensagem foi enviada com sucesso. Entrarei em contato em breve!</p>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 - Desenvolvido por Jhonlli</p>
+    <div class="social-links">
+      <!-- Instagram -->
+      <a href="https://instagram.com/jhonlli_gabriel" target="_blank" class="social-link">
+        <img src="img/insta_logo2-removebg-preview.png" alt="Instagram">
+      </a>
+      <!-- WhatsApp -->
+      <a href="https://wa.me/5554991896888?text=Olá%20Jhonlli,%20gostaria%20de%20saber%20mais%20sobre%20seus%20projetos!" target="_blank" class="social-link">
+        <img src="img/whatsapp.png" alt="WhatsApp">
+      </a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
